@@ -179,15 +179,15 @@ body {
 }
 
 .bg-img-1 {
-  background-image: url(/multimedia/bannerfondo.jpg);
+  background-image: url(multimedia/bannerfondo.jpg);
 }
 
 .bg-img-2 {
-  background-image: url(/multimedia/banner1.jpg);
+  background-image: url(multimedia/banner1.jpg);
 }
 
 .bg-img-3 {
-  background-image: url(/multimedia/banner2.jpg);
+  background-image: url(multimedia/banner2.jpg);
 }
 
 .carousel-image {
@@ -216,10 +216,10 @@ body {
 
 @media (max-width: 1020px) {
   .bg-img-1 {
-    background-image: url(/multimedia/banner1.jpg);
+    background-image: url(multimedia/banner1.jpg);
   }
   .bg-img-2 {
-    background-image: url(/multimedia/bannermedia.jpg);
+    background-image: url(multimedia/bannermedia.jpg);
   }
 }
 .gym-class h3 {
@@ -238,17 +238,17 @@ body {
 }
 
 .corte1 {
-  background-image: url(/multimedia/corte5.png);
+  background-image: url(multimedia/corte5.png);
   background-size: cover;
 }
 
 .corte2 {
-  background-image: url(/multimedia/corte4.png);
+  background-image: url(multimedia/corte4.png);
   background-size: cover;
 }
 
 .corte3 {
-  background-image: url(/multimedia/corte3.png);
+  background-image: url(multimedia/corte3.png);
   background-size: cover;
 }
 
