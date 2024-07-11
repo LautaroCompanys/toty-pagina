@@ -43,9 +43,7 @@ h3{
     font-family: 'Russo One', sans-serif;
 }
 
-body{
-    overflow-x: hidden;
-}
+
 // -------------------------------- HEADER -------------------------------------------
 
 
@@ -201,7 +199,7 @@ body{
 //--------------------------------- BANNER --------------------------------------------
 .bannerfondo{
     background: rgba(0,0,0, .1);
-            backdrop-filter: blur(100);
+    backdrop-filter: blur(50);
 }
 
 .bg-img-1 {
@@ -284,6 +282,7 @@ body{
 
 .experiencia{
     font-family: "IBM Plex Mono", sans-serif;
+    padding-bottom: 0;
     .presentacion{
         list-style: none;
         li{
@@ -299,9 +298,16 @@ body{
 //-------------------------------- TESTIMONIOS SECTION -------------------------------------------
 
 .testimonio{
-    background-image: url(../multimedia/testimonio2.jpg);
+    background-image: url(../multimedia/testimonios.jpg);
     background-attachment: fixed;
     background-size: cover;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
 }
 
 // .quienSoy {
@@ -363,6 +369,13 @@ body{
         position: fixed;
     }
 }
+
+//-------------------------------- FOOTER -------------------------------------------
+
+.footer{
+    background-color: #038C73;
+}
+
 // -------------------------- PLANES  -------------------------------- 
 
 // .plan1Imagen{
@@ -460,10 +473,4 @@ body{
 }
 
 
-.blur{
-    height: 1000px;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(50);
-}
 

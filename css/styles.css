@@ -39,10 +39,6 @@ h3 {
   font-family: "Russo One", sans-serif;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 .header {
   position: fixed;
   top: 0;
@@ -174,8 +170,8 @@ body {
 }
 .bannerfondo {
   background: rgba(0, 0, 0, 0.1);
-  -webkit-backdrop-filter: blur(100);
-          backdrop-filter: blur(100);
+  -webkit-backdrop-filter: blur(50);
+          backdrop-filter: blur(50);
 }
 
 .bg-img-1 {
@@ -254,6 +250,7 @@ body {
 
 .experiencia {
   font-family: "IBM Plex Mono", sans-serif;
+  padding-bottom: 0;
 }
 .experiencia .presentacion {
   list-style: none;
@@ -266,9 +263,16 @@ body {
 }
 
 .testimonio {
-  background-image: url(../multimedia/testimonio2.jpg);
+  background-image: url(../multimedia/testimonios.jpg);
   background-attachment: fixed;
   background-size: cover;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
 }
 
 .whatsapp img {
@@ -277,6 +281,10 @@ body {
   bottom: 40px;
   right: 40px;
   position: fixed;
+}
+
+.footer {
+  background-color: #038C73;
 }
 
 .mySwiper {
@@ -358,11 +366,4 @@ body {
   .mySwiper .swiper-button-next {
     display: none;
   }
-}
-.blur {
-  height: 1000px;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.1);
-  -webkit-backdrop-filter: blur(50);
-          backdrop-filter: blur(50);
 }/*# sourceMappingURL=styles.css.map */
