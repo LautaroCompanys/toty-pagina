@@ -28,7 +28,7 @@
 
     <!--------------------------------- HEADER ---------------------------------------->
 
-    <header class="header">
+    <header class="header" id="header">
         <a href="index.html" class="logo"><img src="multimedia/logo estilo fitness.png" alt="Logotipo estilo fitness"></a>
 
 
@@ -43,7 +43,7 @@
             <a href="pages/planes.html">Planes</a>
             <a href="pages/suplementacion.html">Suplementacion</a>
             <a href="">Indumentaria</a>
-            <a href="#testimonios">Testimonios</a>
+            <a href="#border">Testimonios</a>
         </nav>
     </header>
     <!-------------------------------- HEADER END ------------------------------------->
@@ -53,10 +53,11 @@
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interve="4000">
         <div class="carousel-inner">
             <div class="carousel-item carousel-image bg-img-1 active">
-                <div class="bannerfondo carousel-caption d-md-block">
+                <div class="carousel-caption d-md-block" data-aos="zoom-in" data-aos-duration="3000">
                     <h5>Planes personalizados 2024</h5>
-                    <a href="" class="btn btn-lg btn-outline-light mt-4 px-4">Empezar</a>
+                    <a href="" class="btn btn-xlg btn-outline-light mt-4 px-4">Empezar ahora</a> 
                 </div>
+                
             </div>  
             <div class="carousel-item carousel-image bg-img-2">
                 <div class="carousel-caption d-none d-md-block">
@@ -112,16 +113,16 @@
     <!-------------------------------------------------- SECTION PLANES------------------------------------------>
     
     <div class="planes container pt-5">
-        <div class="d-flex flex-column text-center mb-5">
-            <h4 class="text-primary">Elejí el plan que mejor se adapte con vos!</h4>
-            <h4 class="display-4">PLAN ONLINE 2024 de entrenamiento PERSONALIZADO</h4>
+        <div class="d-flex flex-column text-center mb-5" data-aos="zoom-in" data-aos-duration="1500">
+            <h4 class="text-info">Elejí el plan que mejor se adapte con vos!</h4>
+            <h4 class="display-4">PLAN ONLINE 2024 DE ENTRENAMIENTO PERSONALIZADO</h4>
         </div>
         <div class="row">
             <!-------------------- 1 MES ------------------->
-            <div class="col-lg-6 mb-5 ">
+            <div class="col-lg-6 mb-5" data-aos="zoom-in" data-aos-duration="1500">
                 <img class="img-fluid mb-4" src="multimedia/plann2.jpg" alt="Image">
                 <div class="d-flex align-items-center mb-4">
-                    <div class="d-flex flex-column align-items-center justify-content-center rounded-circle bg-primary text-white" style="width: 80px; height: 80px;">
+                    <div class="circulo d-flex flex-column align-items-center justify-content-center rounded-circle bg-info text-white" style="width: 80px; height: 80px;">
                         <strong class="text-uppercase m-0 text-white">1</strong>
                         <strong class="text-uppercase m-0 text-white">Mes</strong>
                     </div>
@@ -135,13 +136,13 @@
                     <li>30 días de acompañamiento Personalizado 24/7</li>
                     <li>Plan personalizado de alimentación</li>
                 </ul>
-                <a class="btn btn-outline-primary mt-2 px-3" href="">Más info <i class="fa fa-angle-right"></i></a>
+                <a class="btn btn-outline-info mt-2 px-3" href="">Más info <i class="fa fa-angle-right"></i></a>
             </div>
             <!-------------------- 3 MESES ------------------->
-            <div class="col-lg-6 mb-5">
+            <div class="col-lg-6 mb-5" data-aos="zoom-in" data-aos-duration="1500">
                 <img class="img-fluid mb-4" src="multimedia/plann3.jpg" alt="Image">
                 <div class="d-flex align-items-center mb-4">
-                    <div class="d-flex flex-column align-items-center justify-content-center rounded-circle bg-primary text-white" style="width: 80px; height: 80px;">
+                    <div class="d-flex flex-column align-items-center justify-content-center rounded-circle bg-info text-white" style="width: 80px; height: 80px;">
                         <strong class="text-uppercase m-0 text-white">3</strong>
                         <strong class="text-uppercase m-0 text-white">Meses</strong>
                     </div>
@@ -155,7 +156,7 @@
                     <li>90 días de acompañamiento Personalizado 24/7</li>
                     <li>Plan personalizado de alimentación</li>
                 </ul>
-                <a class="btn btn-outline-primary mt-2 px-3" href="">Más info <i class="fa fa-angle-right"></i></a>
+                <a class="btn btn-outline-info mt-2 px-3" href="">Más info <i class="fa fa-angle-right"></i></a>
             </div>
         </div>
     </div>
@@ -221,11 +222,12 @@
 
             <div class="experiencia container py-5">
                 <div class="row align-items-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="zoom-in" data-aos-duration="1500">
                         <img class="img-fluid mb-4 mb-lg-0"  src="multimedia/toty sn fondo 2.png" alt="Image">
                     </div>
-                    <div class="col-lg-6" style="background-color: #038C73; color: white; border-radius: 10px;">
+                    <div class="col-lg-6" style="background-color: #038C73; color: white; border-radius: 10px;" data-aos="zoom-in" data-aos-duration="1500">
                         <h2 class="display-4 mb-4" style="color: #281B25;">15 Años de Experiencia</h2>
+                        <!-- data-aos="fade-left" data-aos-duration="1500" -->
                         <ul class="presentacion" style="font-size: 18px;">
                             <li style="margin-bottom: 15px;"><i class="fa-solid fa-user" style="color: #281B25;"></i> ‎ ‎  Mi nombre es Roxana Companys y soy una apasionada del deporte y del fitness, contando con  más de 25 años de experiencia.</li>
                             <li style="margin-bottom: 15px;"><i class="fa-solid fa-heart-pulse" style="color: #281B25;"></i>  ‎ Durante todos estos años, logré un equilibrio conmigo misma y hoy quiero que sigas el mismo camino.</li>
@@ -264,13 +266,10 @@
 <!------------------------------------------------------ SECTION QUIEN SOY END ----------------------------------------------------->
 
 
-<div class="container border-top border-dark pt-5">
-    
-</div>
+<div id="border" class="container border-top border-dark pt-5 mb-5"></div>
 
     <!------------------------------------------------------- TESTIMONIOS ------------------------------------------------------>
-    <div id="testimonios" style="margin-bottom: 140px;"></div>
-    <div class="testimonio container-fluid position-relative testimonial my-5">
+    <div class="testimonio container-fluid position-relative testimonial">
         <div class="container">
             <div class="row px-3 align-items-center">
                 <div class="col-md-6 bg-secondary">
@@ -324,7 +323,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="pl-md-3 d-none d-md-block" style="height: 500px; padding-top: 30px;">
-                        <h4 class="text-primary">Testimonios</h4>
+                        <!-- <h4 class="text-primary">Testimonios</h4> -->
                         <h3 class="display-4 mb-4 text-white">Que opinan nuestros clientes?</h3>
                         <p class="m-0 text-white">Vero elitr lorem magna justo magna justo at justo est ipsum sed clita lorem dolor ipsum sed. Lorem sea lorem vero. Sanct dolor clita clita rebum kasd magna erat diam</p>
                     </div>
@@ -333,13 +332,9 @@
         </div>
     </div>
         <!-------------------------------- GALERIA ---------------------------------------->
-        
-        <div class="galeria">
-            
-            <div class="twentytwenty-container" style="width: 400px;">
-                <img src="multimedia/esteban11.png" alt="">
-                <img src="multimedia/esteban22.jpg" alt="">
-            </div>
+
+        <div class="d-flex flex-column align-items-center justify-content-center" style="background-color: #038C73; height: 200px; margin-bottom: 150px;" >
+            <h4 class="display-5" style="font-family: IBM Plex Mono, sans-serif; color: #ffff;">EL CAMBIO ES AHORA!</h4>
         </div>
 
         <div class="container">
@@ -360,8 +355,8 @@
         </div>
 
         <div class="container overflow-hidden text-center">
-            <div class="row gy-5 sm-12">
-                <div class="col-lg-4">
+            <div class="row gy-5">
+                <div class="col-lg-4 col-md-6">
                     <div class="p-3">
                         <div class="twentytwenty-container" >
                             <img src="multimedia/esteban11.png" alt="">
@@ -369,7 +364,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="p-3">
                         <div class="twentytwenty-container" >
                 <img src="multimedia/esteban11.png" alt="">
@@ -377,7 +372,7 @@
             </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="p-3">
                         <div class="twentytwenty-container" >
                 <img src="multimedia/esteban11.png" alt="">
@@ -385,7 +380,7 @@
             </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="p-3">
                         <div class="twentytwenty-container" >
                 <img src="multimedia/esteban11.png" alt="">
@@ -418,12 +413,42 @@
 
 <!------------------------------------------------------- FOOTER --------------------------------------------->
 
-<div class="container border-top border-dark pt-5">
-    <p class="m-0 text-center text-black">
-        &copy; <a class="text-black font-weight-bold" href="#">Your Site Name</a>. All Rights Reserved. Designed by
-        <a class="text-black font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
-    </p>
-</div>
+<footer class="text-white py-4" style="background-color: #021327;">
+    <div class="container">
+        <div class="row">
+            <!-- Sección 1: Logo a la derecha -->
+            <div class="col-lg-4 text-lg-start text-center mb-4 mb-lg-0">
+                <img src="multimedia/estilofitnesblanco.png" alt="Logo" class="img-fluid" style="max-width: 200px;">
+            </div>
+
+            <!-- Sección 2: Texto e ícono centrados -->
+            <div class="col-lg-4 text-center mb-4 mb-lg-0">
+                <p class="mb-2">Seguinos en Instagram!</p>
+                    <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="https://www.instagram.com/estilo_fitness1/" target="_blank"><i class="fab fa-instagram"></i></a>            
+            </div>
+
+            <!-- Sección 3: Menú vertical -->
+            <div class="miniMenu col-lg-4 text-lg-end text-center">
+                <ul class="list-unstyled">
+                <li><a href="#carouselExampleCaptions" class=" text-decoration-none">Inicio</a></li>
+                <li><a href="pages/planes.html" class=" text-decoration-none">Planes</a></li>
+                <li><a href="pages/suplementacion.html" class=" text-decoration-none">Suplementacion</a></li>
+                <li><a href="#" class=" text-decoration-none">Indumentaria</a></li>
+                <li><a href="#border" class="text-decoration-none">Testimonios</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container border-top border-dark pt-5">
+        <p class="m-0 text-center text-white">
+            &copy; <a class="text-white font-weight-bold" href="#">Your Site Name</a>. All Rights Reserved. Designed by
+            <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+        </p>
+    </div>
+</footer>
+
+
+
 
 
 
@@ -446,11 +471,11 @@
         });
     </script>
 
-    <!---- AOS ANIMATION ---->
-        <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- -- AOS ANIMATION ---->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             AOS.init();
-        </script> -->
+        </script>
 
         <!---- BOOSTRAP ---->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

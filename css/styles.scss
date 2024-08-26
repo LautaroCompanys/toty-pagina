@@ -197,19 +197,40 @@ h3{
 // -------------------------------- HEADER -------------------------------------------
 
 //--------------------------------- BANNER --------------------------------------------
-.bannerfondo{
-    background: rgba(0,0,0, .1);
-    backdrop-filter: blur(50);
+.carousel-item {
+    position: relative; /* Establece el contenedor relativo para el posicionamiento absoluto */
+    .bannerfondo {
+        position: absolute;
+        top: 10px; /* Ajusta este valor según lo necesites */
+        left: 10px; /* Ajusta este valor según lo necesites */
+        text-align: left;
+        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para legibilidad */
+        padding: 10px; /* Espaciado interno */
+        border-radius: 5px; /* Opcional: añade bordes redondeados */
+        h5{
+            font-size: 50px;
+        }
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .bannerfondo {
+        top: 5px;
+        left: 5px;
+        padding: 5px;
+    }
 }
 
 .bg-img-1 {
-    background-image: url(../multimedia/bannerfondo.jpg);
+    background-image: url(../multimedia/imagebaner.jpg);
 }
 .bg-img-2 {
-    background-image: url(../multimedia/banner1.jpg);
+    background-image: url(../multimedia/imagebaner2.png);
 }
 .bg-img-3 {
-    background-image: url(../multimedia/banner2.jpg);
+    background-image: url(../multimedia/baner12.jpg);
 }
 .carousel-image{
     height: 100vh;
@@ -262,6 +283,9 @@ h3{
 .planes{
     font-family: "IBM Plex Mono", sans-serif;
     font-size: 17px;
+    .circulo{
+        background-color: #038C73;
+    }
 }
 
 //------------------- CORTE ------------------------>
@@ -298,7 +322,7 @@ h3{
 //-------------------------------- TESTIMONIOS SECTION -------------------------------------------
 
 .testimonio{
-    background-image: url(../multimedia/testimonios.jpg);
+    background-image: url(../multimedia/image.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -372,8 +396,23 @@ h3{
 
 //-------------------------------- FOOTER -------------------------------------------
 
-.footer{
-    background-color: #038C73;
+footer{
+    background-color: $color1;
+    .miniMenu{
+        a{
+            font-family: "Anta", sans-serif;
+        
+        color: rgb(255, 255, 255);
+        
+        &:hover{
+            background: #ccc;
+            background: linear-gradient(90deg, #6c0add 0%, #FC00FF 100%);
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+        }}
+    }
+    
 }
 
 // -------------------------- PLANES  -------------------------------- 
@@ -392,8 +431,8 @@ h3{
     .swiper-wrapper{
         .swiper-slide{
             width: 400px;
-            height: 600px;
-            background-color: #484646;
+            height: 700px;
+            background-color: #474848;
             box-shadow: 0 0 20px rgb(0, 0, 0, 0.4);
             padding: 40px;
             text-align: center;
@@ -438,13 +477,18 @@ h3{
             .product-btn{
                 display: inline-block;
                 padding: 13px 55px;
-                border: 2px solid #ffaa00;
+                border: 2px solid #ffffff;
                 border-radius: 25px;
-                color: #d58e00;
-                background-color: #484646;
+                color: #ffffff;
+                background-color: $color1;
                 text-decoration: none;
                 margin: 20px ;
                 font-weight: 600;
+                &:hover{
+                    border: 2px solid #ffffff;
+                    color: #ffffff;
+                    background-color: $color2;
+                }
             }
         }
     }
