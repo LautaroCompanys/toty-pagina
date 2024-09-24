@@ -181,6 +181,7 @@ h3 {
 }
 .carousel-item .bannerfondo h2 {
   font-size: 70px;
+  text-shadow: 2px 2px 10px rgb(191, 191, 191);
 }
 .carousel-item .btnFondo {
   display: flex;
@@ -190,25 +191,36 @@ h3 {
   height: 100vh;
   padding-bottom: 60px;
 }
+.carousel-item .bannerfondo3 {
+  position: absolute;
+  top: 105px; /* Ajusta este valor según lo necesites */
+  left: 30px; /* Ajusta este valor según lo necesites */
+  text-align: left;
+  padding: 10px; /* Espaciado interno */
+}
+.carousel-item .bannerfondo3 h2 {
+  font-size: 55px;
+  text-shadow: 4px 3px 10px rgb(66, 66, 66);
+}
 
-@media (max-width: 940px) {
+@media (max-width: 1160px) {
   .carousel-item {
     position: relative; /* Establece el contenedor relativo para el posicionamiento absoluto */
   }
   .carousel-item .bannerfondo {
     position: absolute;
-    top: 80px; /* Ajusta este valor según lo necesites */
+    top: 110px; /* Ajusta este valor según lo necesites */
     left: 30px; /* Ajusta este valor según lo necesites */
     text-align: left;
     padding: 10px; /* Espaciado interno */
   }
   .carousel-item .bannerfondo h2 {
-    font-size: 70px;
+    font-size: 55px;
   }
 }
 @media (max-width: 575px) {
   .carousel-inner .bg-img-1 {
-    background-image: url(../multimedia/banner1cel.png);
+    background-image: url(../multimedia/bannercelu.jpg);
   }
   .carousel-inner h2 {
     display: none;
@@ -216,24 +228,29 @@ h3 {
   .carousel-inner .bg-img-2 {
     background-image: url(../multimedia/banner2celu.png);
   }
+  .carousel-inner .bg-img-3 {
+    background-image: url(../multimedia/banner3celu.jpg);
+  }
 }
 .bg-img-1 {
   background-image: url(../multimedia/banner1.png);
+  background-position: center;
 }
 
 .bg-img-2 {
-  background-image: url(../multimedia/banner2.png);
+  background-image: url(../multimedia/banner2.jpg);
+  background-position: bottom center;
 }
 
 .bg-img-3 {
-  background-image: url(../multimedia/DSC_3267.jpg);
+  background-image: url(../multimedia/banner3.jpg);
+  background-position: bottom center;
 }
 
 .carousel-image {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
 }
 
 .btn-info {
@@ -255,6 +272,9 @@ h3 {
 .gym-class .primero .primero1 {
   height: 100%;
 }
+.gym-class .primero .primero1 h2 {
+  text-shadow: 3px 3px 5px rgb(121, 121, 121);
+}
 .gym-class .segundo {
   background-color: #FFCA2C;
   min-height: 300px;
@@ -263,11 +283,13 @@ h3 {
   height: 100%;
 }
 .gym-class .segundo {
-  background-image: url(../multimedia/svg400.png);
   min-height: 300px;
 }
 .gym-class .segundo .segundo2 {
   height: 100%;
+}
+.gym-class .segundo .segundo2 h2 {
+  text-shadow: 3px 3px 7px rgb(45, 45, 45);
 }
 .gym-class .tercero {
   background-color: #000000;
@@ -275,6 +297,9 @@ h3 {
 }
 .gym-class .tercero .tercero3 {
   height: 100%;
+}
+.gym-class .tercero .tercero3 h2 {
+  text-shadow: 3px 3px 5px rgb(121, 121, 121);
 }
 
 @media (max-width: 768px) {
@@ -300,12 +325,12 @@ h3 {
 }
 
 .corte1 {
-  background-image: url(../multimedia/corte5.png);
+  background-image: url(../multimedia/corte1.png);
   background-size: cover;
 }
 
 .corte2 {
-  background-image: url(../multimedia/corte4.png);
+  background-image: url(../multimedia/corte2.png);
   background-size: cover;
 }
 
@@ -336,7 +361,7 @@ h3 {
 }
 
 .testimonio {
-  background-image: url(../multimedia/image.jpg);
+  background-image: url(../multimedia/testimonioback.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
