@@ -476,15 +476,62 @@ footer{
     
 }
 
-// -------------------------- PLANES -------------------------------- 
+// -------------------------- PAGES PLANES -------------------------------- 
 
-// .plan1Imagen{
-//     background-image: url(/multimedia/plann1.jpg);
-//     background-size: cover; 
-//     background-position: center;
-// }
+.bannerSup{
+    background-image: url(../multimedia/bannerplanes.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 500px; 
+    margin-bottom: 100px;
+}
 
-// -------------------------- SUPLEMENTACION  --------------------------------      
+
+@media (max-width: 850px){
+    .bannerSup{
+        background-image: url(../multimedia/bannerplanescelu.jpg);
+    }
+}
+
+
+
+.planess{
+    // background-image: url(/multimedia/bannerplanes.jpg);
+    background-color: #ffaa00;
+    background-size: cover; 
+    background-position: center;
+    text-align: center;
+    background-clip: content-box;
+    ul{
+        list-style: none;
+        li{
+            i{
+                padding-right: 15px;
+                font-size: 15px;
+                color: $color1;
+            }
+        }
+    }
+    .objetivos{
+        text-align: left;
+        display: inline-block;
+        // padding-top: 50px;
+    }
+}
+
+.p1{
+    background-image: url(/multimedia/planp1.png);
+}
+
+.p2{
+    background-image: url(/multimedia/planp2.png);
+}
+
+
+
+
+// -------------------------- PAGES SUPLEMENTACION  --------------------------------      
 
 .mySwiper{
     margin: 100px 500px;
