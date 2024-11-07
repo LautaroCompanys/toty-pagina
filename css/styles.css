@@ -288,13 +288,6 @@ h3 {
   padding-left: 15px;
 }
 
-.galeria {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  justify-content: center;
-}
-
 .video-container {
   top: 0;
   left: 0;
@@ -439,8 +432,9 @@ footer .miniMenu a:hover {
   height: 700px;
   background-color: #474848;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-  padding: 40px;
+  padding: 20px;
   text-align: center;
+  border-radius: 5%;
 }
 .mySwiper .swiper-wrapper .swiper-slide .icons {
   display: flex;
@@ -449,15 +443,15 @@ footer .miniMenu a:hover {
   margin-bottom: 40px;
 }
 .mySwiper .swiper-wrapper .swiper-slide .icons img {
-  width: 250px;
+  width: 200px;
 }
 .mySwiper .swiper-wrapper .swiper-slide .product-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .mySwiper .swiper-wrapper .swiper-slide .product-content .product-txt {
   flex-basis: 50%;
-  text-align: left;
+  text-align: center;
 }
 .mySwiper .swiper-wrapper .swiper-slide .product-content .product-txt span {
   font-size: 25px;
@@ -621,6 +615,33 @@ footer .miniMenu a:hover {
 @media (max-width: 767px) {
   .testimonioTitulo {
     height: 250px;
+  }
+  .mySwiper .swiper-wrapper .swiper-slide {
+    width: 300px;
+    height: 550px;
+  }
+  .mySwiper .swiper-wrapper .swiper-slide .icons {
+    margin-bottom: 0px;
+  }
+  .mySwiper .swiper-wrapper .swiper-slide .icons img {
+    width: 150px;
+  }
+  .mySwiper .swiper-wrapper .swiper-slide .product-content .product-txt span {
+    font-size: 20px;
+  }
+  .mySwiper .swiper-wrapper .swiper-slide .product-btn {
+    padding: 9px 45px;
+    margin: 0px;
+  }
+  .mySwiper .swiper-button-prev {
+    border-radius: 65px 0 0 65px;
+    color: #ffffff;
+    margin-left: 200px;
+  }
+  .mySwiper .swiper-button-next {
+    border-radius: 65px 0 0 65px;
+    color: #ffffff;
+    margin-right: 200px;
   }
 }
 @media (max-width: 850px) {

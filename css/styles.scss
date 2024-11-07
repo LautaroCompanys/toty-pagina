@@ -340,12 +340,7 @@ h3{
     }
 }
 
-.galeria{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    justify-content: center;
-}
+
 
 .video-container{
     top: 0;
@@ -525,23 +520,24 @@ footer{
             height: 700px;
             background-color: #474848;
             box-shadow: 0 0 20px rgb(0, 0, 0, 0.4);
-            padding: 40px;
+            padding: 20px;
             text-align: center;
+            border-radius: 5%;
             .icons{
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 margin-bottom: 40px;
                 img{
-                    width: 250px;
+                    width: 200px;
                 }
             }
             .product-content{
                 display: flex;
-                justify-content: space-between;
+                justify-content: center;
                 .product-txt{
                     flex-basis: 50%;
-                    text-align: left;
+                    text-align: center;
                     span{
                         font-size: 25px;
                         color: #ffffff;
@@ -595,6 +591,16 @@ footer{
     }
 }
 
+
+
+
+// --------------------------------------------------------- MEDIAS QUERYS  -------------------------------------------------------------  
+
+
+// ------------------------------------ HEADER  -------------------------
+
+// MEDIAQUIERIES
+
 @media (max-width: 1400px){
     .mySwiper{
         .swiper-button-prev{
@@ -606,14 +612,6 @@ footer{
     }
     
 }
-
-
-// --------------------------------------------------------- MEDIAS QUERYS  -------------------------------------------------------------  
-
-
-// ------------------------------------ HEADER  -------------------------
-
-// MEDIAQUIERIES
 
 @media (max-width: 1020px){
     .header{
@@ -746,7 +744,44 @@ footer{
     .testimonioTitulo{
         height: 250px;
     }
+    //----------------------- indumentaria swipper ----------------------
+    .mySwiper{
+    .swiper-wrapper{
+        .swiper-slide{
+            width: 300px;
+            height: 550px;
+            .icons{
+                margin-bottom: 0px;
+                img{
+                    width: 150px;
+                }
+            }
+            .product-content{
+                .product-txt{
+                    span{
+                        font-size: 20px;
+                    }
+                }
+            }
+            .product-btn{
+                padding: 9px 45px;
+                margin: 0px ;
+            }
+        }
+    }
+    .swiper-button-prev{
+        border-radius: 65px 0 0 65px;
+        color: #ffffff;
+        margin-left: 200px;
+    }
+    .swiper-button-next{
+        border-radius: 65px 0 0 65px;
+        color: #ffffff;
+        margin-right: 200px;
+    }
 }
+}
+
 
 //------------------------------------ PLANES PAGE ----------------------------------------
 @media (max-width: 850px){
