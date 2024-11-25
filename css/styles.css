@@ -548,6 +548,15 @@ footer .miniMenu a:hover {
   margin-right: 200px;
 }
 
+.bannerInd {
+  background-image: url(../multimedia/bannerInd.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-bottom: 100px;
+}
+
 @media (max-width: 1400px) {
   .mySwiper .swiper-button-prev {
     display: none;
