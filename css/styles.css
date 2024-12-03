@@ -118,14 +118,14 @@ h3 {
 }
 
 .carousel-item {
-  position: relative; /* Establece el contenedor relativo para el posicionamiento absoluto */
+  position: relative;
 }
 .carousel-item .bannerfondo {
   position: absolute;
-  top: 145px; /* Ajusta este valor según lo necesites */
-  left: 30px; /* Ajusta este valor según lo necesites */
+  top: 145px;
+  left: 30px;
   text-align: left;
-  padding: 10px; /* Espaciado interno */
+  padding: 10px;
 }
 .carousel-item .bannerfondo h2 {
   font-size: 70px;
@@ -141,10 +141,10 @@ h3 {
 }
 .carousel-item .bannerfondo3 {
   position: absolute;
-  top: 105px; /* Ajusta este valor según lo necesites */
-  left: 30px; /* Ajusta este valor según lo necesites */
+  top: 105px;
+  left: 30px;
   text-align: left;
-  padding: 10px; /* Espaciado interno */
+  padding: 10px;
 }
 .carousel-item .bannerfondo3 h2 {
   font-size: 55px;
@@ -287,6 +287,9 @@ h3 {
 .testimonio .alumno {
   padding-left: 15px;
 }
+.testimonio h4 {
+  font-family: "Anta", sans-serif;
+}
 
 .video-container {
   top: 0;
@@ -305,6 +308,7 @@ h3 {
   background-attachment: fixed;
   background-size: cover;
   margin-bottom: 100px;
+  font-family: "Anta", sans-serif;
 }
 .slider .sliderContent {
   display: flex;
@@ -317,6 +321,7 @@ h3 {
   padding: 0 2rem;
   display: inline-block;
   line-height: 200px; /* Centra verticalmente el texto */
+  font-size: 35px;
 }
 
 @keyframes scrollText {
@@ -557,6 +562,22 @@ footer .miniMenu a:hover {
   margin-bottom: 100px;
 }
 
+.tallesPuntos ul {
+  list-style: none;
+}
+.tallesPuntos ul li {
+  font-size: 20px;
+}
+.tallesPuntos ul li i {
+  padding-right: 15px;
+  font-size: 25px;
+  color: #FFCA2C;
+}
+
+.tallesTabla {
+  margin-left: 500px;
+}
+
 @media (max-width: 1400px) {
   .mySwiper .swiper-button-prev {
     display: none;
@@ -661,7 +682,7 @@ footer .miniMenu a:hover {
     -webkit-animation: scrollText 10s linear infinite;
   }
   .slider .sliderContent span {
-    font-size: 35px;
+    font-size: 25px;
     line-height: 150px;
   }
   .preguntas button {
