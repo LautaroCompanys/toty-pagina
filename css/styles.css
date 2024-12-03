@@ -574,10 +574,6 @@ footer .miniMenu a:hover {
   color: #FFCA2C;
 }
 
-.tallesTabla {
-  margin-left: 500px;
-}
-
 @media (max-width: 1400px) {
   .mySwiper .swiper-button-prev {
     display: none;
