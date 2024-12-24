@@ -325,6 +325,16 @@ h3{
     width: calc(100vh * 1.78);
 }
 
+// // -------------------------- TWENTY TWENTY--------------------------------
+
+.twentytwenty-container{
+    img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
 // // -------------------------- CAMBIO AHORA --------------------------------
 
 
@@ -627,7 +637,9 @@ footer{
     height: 500px; 
     margin-bottom: 100px;
 }
-
+#border{
+    width: 400px;
+}
 .tallesPuntos{
     ul{
         list-style: none;
