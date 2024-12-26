@@ -423,8 +423,12 @@ footer .miniMenu a:hover {
   text-align: center;
   background-clip: content-box;
 }
+.planess h2 {
+  font-size: 40px;
+}
 .planess h3 {
   color: #FFCA2C;
+  font-size: 20px;
 }
 .planess ul {
   list-style: none;
@@ -444,7 +448,7 @@ footer .miniMenu a:hover {
 }
 
 .p2 {
-  background-image: url(../multimedia/planp2.png);
+  background-image: url(../multimedia/planalimentario.png);
 }
 
 .planCorte2 {
