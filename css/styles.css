@@ -440,6 +440,13 @@ footer .miniMenu a:hover {
   display: inline-block;
 }
 
+.combo {
+  background-color: rgb(19, 19, 19);
+  background-size: contain;
+  max-width: 800px;
+  margin-top: 24px;
+}
+
 .p1 {
   background-image: url(../multimedia/planp1.png);
 }
@@ -644,6 +651,9 @@ footer .miniMenu a:hover {
     display: block;
     color: #000000;
   }
+  .combo {
+    max-width: 500px;
+  }
 }
 @media (max-width: 1160px) {
   .carousel-item {
@@ -694,6 +704,9 @@ footer .miniMenu a:hover {
   }
   .preguntas button {
     font-size: 15px;
+  }
+  #border {
+    width: 250px;
   }
 }
 @media (max-width: 767px) {

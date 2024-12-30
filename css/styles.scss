@@ -498,32 +498,13 @@ footer{
     }
 }
 
+.combo{
+    background-color: rgb(19, 19, 19);
+    background-size: contain;
+    max-width: 800px;
+    margin-top: 24px;
+}
 
-// .planess{
-//     background-color: #ffaa00;
-//     background-size: cover; 
-//     background-position: center;
-//     text-align: center;
-//     background-clip: content-box;
-//     h3{
-//         color:#FFCA2C
-//     }
-//     ul{
-//         list-style: none;
-//         li{
-//             i{
-//                 padding-right: 15px;
-//                 font-size: 15px;
-//                 color: $color1;
-//             }
-//         }
-//     }
-//     .objetivos{
-//         text-align: left;
-//         display: inline-block;
-//         // padding-top: 50px;
-//     }
-// }
 
 .p1{
     background-image: url(../multimedia/planp1.png);
@@ -736,7 +717,6 @@ footer{
             
         }
     }
-
     #check:checked~{
         .icons{
             #menu-icon{
@@ -759,6 +739,9 @@ footer{
             display: block;
             color: #000000;
         }
+    }
+    .combo{
+        max-width: 500px;
     }
 }
 
@@ -824,6 +807,10 @@ footer{
         button{
             font-size: 15px;
         }
+    }
+    // BORDER
+    #border{
+        width: 250px;
     }
 }
 
