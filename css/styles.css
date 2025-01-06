@@ -324,7 +324,7 @@ h3 {
 }
 .slider .sliderContent span {
   font-size: 3rem;
-  padding: 0 2rem;
+  padding: 0 1rem;
   display: inline-block;
   line-height: 200px; /* Centra verticalmente el texto */
   font-size: 35px;
@@ -423,21 +423,36 @@ footer .miniMenu a:hover {
   text-align: center;
   background-clip: content-box;
 }
+.planess h2 {
+  padding-left: 15px;
+}
 .planess h3 {
   color: #FFCA2C;
   font-size: 20px;
 }
 .planess ul {
   list-style: none;
+  padding: 0 100px;
+}
+.planess ul li {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  line-height: 1.5;
 }
 .planess ul li i {
-  padding-right: 15px;
   font-size: 15px;
   color: #FFCA2C;
+  margin-right: 8px;
+  padding-top: 5px;
+}
+.planess .infoPlanesEntrenamiento {
+  margin-bottom: 38px;
 }
 .planess .objetivos {
   text-align: left;
   display: inline-block;
+  padding-top: 50px;
 }
 
 .combo {
@@ -686,7 +701,7 @@ footer .miniMenu a:hover {
     display: none;
   }
   .carousel-inner .bg-img-2 {
-    background-image: url(../multimedia/banner2celu.png);
+    background-image: url(../multimedia/banner2celu.jpg);
   }
   .carousel-inner .bg-img-3 {
     background-image: url(../multimedia/banner3celu.jpg);
@@ -739,6 +754,10 @@ footer .miniMenu a:hover {
     border-radius: 65px 0 0 65px;
     color: #ffffff;
     margin-right: 200px;
+  }
+  .planess ul {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 @media (max-width: 850px) {
