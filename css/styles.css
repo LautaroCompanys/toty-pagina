@@ -455,6 +455,10 @@ footer .miniMenu a:hover {
   padding-top: 50px;
 }
 
+.promoRecetario {
+  background-color: rgb(19, 19, 19);
+}
+
 .combo {
   background-color: rgb(19, 19, 19);
   background-size: contain;
