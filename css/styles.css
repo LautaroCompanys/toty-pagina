@@ -417,6 +417,7 @@ footer .miniMenu a:hover {
 }
 
 .planess {
+  position: relative;
   background-color: #ffaa00;
   background-size: cover;
   background-position: center;
@@ -455,6 +456,19 @@ footer .miniMenu a:hover {
   padding-top: 50px;
 }
 
+.cinta {
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  background: #ff5722;
+  color: white;
+  padding: 5px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  transform: rotate(-40deg);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
 .promoRecetario {
   background-color: rgb(19, 19, 19);
 }
@@ -473,6 +487,10 @@ footer .miniMenu a:hover {
 
 .p2 {
   background-image: url(../multimedia/planalimentario.png);
+}
+
+.p3 {
+  background-image: url(../multimedia/planp2.png);
 }
 
 .planCorte2 {
