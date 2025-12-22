@@ -107,7 +107,7 @@ h3 {
 }
 
 .scroll-styles {
-  background-color: #dc80f3;
+  background-color: #FFCA2C;
   transition: background-color 1s ease, -webkit-backdrop-filter 1s ease;
   transition: background-color 1s ease, backdrop-filter 1s ease;
   transition: background-color 1s ease, backdrop-filter 1s ease, -webkit-backdrop-filter 1s ease;
@@ -185,7 +185,7 @@ h3 {
 }
 
 .gym-class .primero {
-  background-color: #d500e9;
+  background-color: #000000;
   min-height: 300px;
 }
 .gym-class .primero .primero1 {
@@ -195,7 +195,7 @@ h3 {
   text-shadow: 3px 3px 5px rgb(121, 121, 121);
 }
 .gym-class .segundo {
-  background-color: #dc80f3;
+  background-color: #FFCA2C;
   min-height: 300px;
 }
 .gym-class .segundo .segundo2 {
@@ -211,7 +211,7 @@ h3 {
   text-shadow: 3px 3px 7px rgb(45, 45, 45);
 }
 .gym-class .tercero {
-  background-color: #d500e9;
+  background-color: #000000;
   min-height: 300px;
 }
 .gym-class .tercero .tercero3 {
@@ -237,10 +237,10 @@ h3 {
   font-size: 17px;
 }
 .planes .planesTitulo {
-  color: #dc80f3;
+  color: #FFCA2C;
 }
 .planes .circulo {
-  background-color: #dc80f3;
+  background-color: #FFCA2C;
 }
 
 .corte1 {
@@ -345,7 +345,7 @@ h3 {
 }
 
 .botonFinal {
-  background: #dc80f3;
+  background: #FFCA2C;
   cursor: pointer;
   border: none;
   padding: 16px 32px;
@@ -362,7 +362,7 @@ h3 {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: linear-gradient(45deg, #dc80f3, #d500e9, #f17c0e, #d500e9, #dc80f3, #d500e9, #f17c0e, #d500e9);
+  background: linear-gradient(45deg, #FFCA2C, #000000, #f17c0e, #000000, #FFCA2C, #000000, #f17c0e, #000000);
   background-size: 800%;
   border-radius: 10px;
   filter: blur(8px);
@@ -393,7 +393,7 @@ h3 {
 }
 
 footer {
-  background-color: #d500e9;
+  background-color: #000000;
 }
 footer .miniMenu a {
   font-family: "Anta", sans-serif;
@@ -443,7 +443,7 @@ footer .miniMenu a:hover {
 }
 .planess ul li i {
   font-size: 15px;
-  color: #dc80f3;
+  color: #FFCA2C;
   margin-right: 8px;
   padding-top: 5px;
 }
@@ -603,7 +603,7 @@ footer .miniMenu a:hover {
   border: 2px solid #ffffff;
   border-radius: 25px;
   color: #ffffff;
-  background-color: #dc80f3;
+  background-color: #FFCA2C;
   text-decoration: none;
   margin: 20px;
   font-weight: 600;
@@ -611,7 +611,7 @@ footer .miniMenu a:hover {
 .mySwiper .swiper-wrapper .swiper-slide .product-btn:hover {
   border: 2px solid #ffffff;
   color: #ffffff;
-  background-color: #d500e9;
+  background-color: #000000;
 }
 .mySwiper .swiper-button-prev {
   border-radius: 65px 0 0 65px;
@@ -646,7 +646,7 @@ footer .miniMenu a:hover {
 .tallesPuntos ul li i {
   padding-right: 15px;
   font-size: 25px;
-  color: #dc80f3;
+  color: #FFCA2C;
 }
 
 @media (max-width: 1400px) {
