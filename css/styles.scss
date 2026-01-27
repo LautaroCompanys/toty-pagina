@@ -475,6 +475,7 @@ footer{
 // -------------------------------------------------- PAGES PLANES ------------------------------------------------------- 
 
 .bannerSup{
+    // background-image: url(../multimedia/bannerplanes2026_processed.jpg);
     background-image: url(../multimedia/bannerplanes.jpg);
     background-size: cover;
     background-position: bottom;
@@ -492,6 +493,7 @@ footer{
     background-clip: content-box;
     h2{
         padding-left: 15px;
+        font-weight: 800;
     }
     h3{
         color: $color1;
@@ -520,7 +522,10 @@ footer{
     .objetivos{
         text-align: left;
         display: inline-block;
-        padding-top: 50px;
+        padding: 60px;
+    }
+    .precios1{
+        margin-top: 100px;
     }
 }
 
@@ -555,15 +560,15 @@ footer{
 
 
 .p1{
-    background-image: url(../multimedia/planp1.png);
+    background-image: url(../multimedia/planp12026.jpg);
 }
 
 .p2{
-    background-image: url(../multimedia/planalimentario.png);
+    background-image: url(../multimedia/planp22026.jpg);
 }
 
 .p3{
-    background-image: url(../multimedia/planp2.png);
+    background-image: url(../multimedia/planp32026.jpg);
 }
 
 
@@ -761,6 +766,11 @@ footer{
             display: none;
         }
     }
+    .planess{
+        .infoPlanesEntrenamiento{
+        margin-bottom: 110px; 
+    }
+    }
 }
 
 @media (max-width: 1020px){
@@ -952,7 +962,10 @@ footer{
 //------------------------------------ PLANES PAGE ----------------------------------------
 @media (max-width: 850px){
     .bannerSup{
-        background-image: url(../multimedia/bannerplanescelu.jpg);
+        // background-image: url(../multimedia/bannerplanescelu.jpg);
+        background-image: url(../multimedia/IMG_0667.jpg);
+        background-position: top center;
+        background-size: cover
     }
 }
 

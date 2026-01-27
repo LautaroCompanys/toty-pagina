@@ -430,6 +430,7 @@ footer .miniMenu a:hover {
 }
 .planess h2 {
   padding-left: 15px;
+  font-weight: 800;
 }
 .planess h3 {
   color: #dc80f3;
@@ -457,7 +458,10 @@ footer .miniMenu a:hover {
 .planess .objetivos {
   text-align: left;
   display: inline-block;
-  padding-top: 50px;
+  padding: 60px;
+}
+.planess .precios1 {
+  margin-top: 100px;
 }
 
 .cinta {
@@ -489,15 +493,15 @@ footer .miniMenu a:hover {
 }
 
 .p1 {
-  background-image: url(../multimedia/planp1.png);
+  background-image: url(../multimedia/planp12026.jpg);
 }
 
 .p2 {
-  background-image: url(../multimedia/planalimentario.png);
+  background-image: url(../multimedia/planp22026.jpg);
 }
 
 .p3 {
-  background-image: url(../multimedia/planp2.png);
+  background-image: url(../multimedia/planp32026.jpg);
 }
 
 .planCorte2 {
@@ -670,6 +674,9 @@ footer .miniMenu a:hover {
   .mySwiper .swiper-button-next {
     display: none;
   }
+  .planess .infoPlanesEntrenamiento {
+    margin-bottom: 110px;
+  }
 }
 @media (max-width: 1020px) {
   .header .icons {
@@ -821,6 +828,8 @@ footer .miniMenu a:hover {
 }
 @media (max-width: 850px) {
   .bannerSup {
-    background-image: url(../multimedia/bannerplanescelu.jpg);
+    background-image: url(../multimedia/IMG_0667.jpg);
+    background-position: top center;
+    background-size: cover;
   }
 }/*# sourceMappingURL=styles.css.map */
